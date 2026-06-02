@@ -10,7 +10,7 @@ def solicitar_dados_usuario():
     idade = int(input("Digite sua idade: "))
     peso = float(input("Digite seu peso (kg): "))  
     altura = float(input("Digite sua altura (cm): "))
-    resistencia = float(input("Digite sua resistência (mV): "))
+    resistencia = float(input("Digite sua resistência (ohms): "))
     
     return {
         "nome": nome,
